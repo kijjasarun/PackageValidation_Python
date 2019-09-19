@@ -1,0 +1,29 @@
+<data>
+	<servers>        
+		<server name="server">http://ip:8100/pv/v1/packages/reports</server>
+		<server name="user">User</server>
+		<server name="password">Pass</server>		
+		<server name="serverUp">\\shar\com</server> 
+		
+		<server name="mailSMTP">email.co.th</server>
+		
+    </servers>
+	
+	<mails>
+        <mail name="toMail">toWho@wdc.com</mail>
+        <mail name="ccMail">ccWho@wdc.com</mail> 
+		<mail name="subMail">PV status [ Debuging ]</mail> 
+		
+		<mail name="senderM">senderWho@wdc.com</mail> 
+		<mail name="receiversM">receiverWho@wdc.com</mail> 
+	</mails>
+	
+	<keys>
+		<key name="WDBBK_Link">https://bitbucket.com/rest/api/v1/projects/xxx</key>
+		<key name="WDBBK_Username">usernameWDBitBucket</key>
+		<key name="WDBBK_Repos">repos</key>
+		<key name="WDBBK_limit">10</key>
+		
+	</keys>
+	
+</data>
